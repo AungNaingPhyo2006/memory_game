@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="details">
+            <p class="time">Minute: <span class="minute"><b>00</b>m</span></p>
+            <p class="time">Second: <span class="second"><b>00</b>s</span></p>
+            <p class="flips">Moves: <span class="flips"><b>00</b></span></p>
+            <button onclick="refresh()">Refresh</button>
+        </div>
+        
+        <section class="memory-game">
+            <div class="memory-card" data-framework="1">
+              <img class="front-face" src="./Stc/stc1.jpg" alt="stc1" />
+              <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+            </div>
+            <div class="memory-card" data-framework="1">
+                <img class="front-face" src="./Stc/stc1.jpg" alt="stc1" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="2">
+                <img class="front-face" src="./Stc/stc2.jpg" alt="stc2" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="2">
+                <img class="front-face" src="./Stc/stc2.jpg" alt="stc2" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="3">
+                <img class="front-face" src="./Stc/stc3.jpg" alt="stc3" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="3">
+                <img class="front-face" src="./Stc/stc3.jpg" alt="stc3" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="4">
+                <img class="front-face" src="./Stc/stc4.jpg" alt="stc4" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="4">
+                <img class="front-face" src="./Stc/stc4.jpg" alt="stc4" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="5">
+                <img class="front-face" src="./Stc/stc5.jpg" alt="stc5" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="5">
+                <img class="front-face" src="./Stc/stc5.jpg" alt="stc5" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="6">
+                <img class="front-face" src="./Stc/stc6.jpg" alt="stc6" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="6">
+                <img class="front-face" src="./Stc/stc6.jpg" alt="stc6" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="7">
+                <img class="front-face" src="./Stc/stc7.jpg" alt="stc7" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="7">
+                <img class="front-face" src="./Stc/stc7.jpg" alt="stc7" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="8">
+                <img class="front-face" src="./Stc/stc8.jpg" alt="stc8" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+              <div class="memory-card" data-framework="8">
+                <img class="front-face" src="./Stc/stc8.jpg" alt="stc8" />
+                <img class="back-face" src="./Stc/steven.jpg" alt="Stephen Chow" />
+              </div>
+          </section>
+
+          <section id="congratsSection" class="hidden">   
+            <div id="congratsDiv">
+                <img src="./Stc/congrats.jpg" alt="congratsImage">
+                <p class="final">
+                    <span id="totalTime"></span>
+                </p>
+                <br>
+                <p>
+                    <a class="again">Play Again ! </a>
+                </p>
+                <small>Developed by Aung Naing Phyo</small>
+            </div>
+        </section>
+
+    </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
