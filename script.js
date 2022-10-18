@@ -72,7 +72,7 @@ function resetBoard() {
 }
 
 function refresh(){
-    confirm("Are you sure that?")
+    confirm("Are you sure to refresh?")
     location.reload();
 }
 
