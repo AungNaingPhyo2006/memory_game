@@ -179,3 +179,14 @@ small{
   color: red;
 }
 
+@media screen and (max-width:480px){
+ 
+  .memory-game {
+    width: 400px;
+    height: 290px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+  }
+}
